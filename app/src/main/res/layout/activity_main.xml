@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="#121212">
+
+    <EditText
+        android:id="@+id/editTextTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Task"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#AAAAAA"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD TASK"
+        android:backgroundTint="#C7A3FF"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/listViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#666666"
+        android:dividerHeight="1dp"
+        android:background="#1E1E1E"
+        android:padding="8dp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
